@@ -1,0 +1,14 @@
+# CHAT
+openvino-genai==2024.2.0
+
+playsound  # playback
+sounddevice  # record
+
+pyaudio
+SpeechRecognition
+
+# TTS   https://huggingface.co/microsoft/speecht5_tts
+transformers sentencepiece datasets[audio]
+torch
+torchaudio
+torchvision
